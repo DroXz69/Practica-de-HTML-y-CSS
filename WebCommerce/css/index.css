@@ -40,6 +40,17 @@ footer{
     float: left;
     height: 100%;
 }
+
 .material-symbols-outlined.md-36{
+    font-size: 2.1em;
+    background-color: blueviolet;
+    border-radius: 25px;
+}   
+.material-symbols-outlined.md-36:hover{
+    background-color: cadetblue;
+    font-size: 2.5em;
+}
+.material-symbols-outlined.md-36:active{
+    background-color: blue;
     font-size: 3em;
 }
