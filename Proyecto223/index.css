@@ -1,0 +1,124 @@
+#CV{
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 30px;
+    background-color: salmon
+    ;}
+#img{
+    width: 10%;
+    height: 5%;
+    margin-left: 20%;
+    margin-top: 1%;
+    ;}
+#nombre{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 22px;
+    margin-top: -10%;
+    ;}    
+#rut{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 12px;    
+    ;}
+#nac{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 12px;    
+    ;}
+#estc{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 12px;    
+    ;}
+#tel{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 12px;    
+    ;}
+#mail{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 12px;    
+    ;}
+#email{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 12px;
+    color: blue    
+    ;}
+#comuna{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 12px;    
+    ;}
+#OP{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 16px;    
+    ;}
+#OPa{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 12px;    
+    ;}
+#FA{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 16px;    
+    ;}
+#FAa{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 12px;    
+    ;}
+#FAb{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 12px;    
+    ;}
+#EP{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 16px;    
+    ;}
+#EPa{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 12px;    
+    ;}
+#EPb{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 12px;    
+    ;}
+#CI{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 16px;    
+    ;}
+#CIa{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 12px;    
+    ;}
+#idioma{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 16px;    
+    ;}
+#ia{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 12px;    
+    ;}
+#ODI{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 16px;    
+    ;}
+#ODIa{
+    text-align: justify;
+    font-family: 'Arial';
+    font-size: 12px;    
+    ;}
