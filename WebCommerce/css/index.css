@@ -1,0 +1,45 @@
+header{
+    background-color: blue;
+    height: 10vh;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    background-color: aliceblue;
+    height: 80vh;
+}
+footer{
+    background-color: red;
+    height: 10vh;
+}
+#header_logo{
+    background-color: rgb(48, 48, 86);
+    width: 10vw;
+    float: left;
+    height: 100%;
+}
+#header_logo > img{
+    width: 30%;
+}
+#header_menu{
+    background-color:rgb(180, 20, 167);
+    width: 10vw;
+    float: left;
+    height: 100%;
+}
+#header_busqueda{
+    background-color: rgb(160, 140, 150);
+    width: 40vw;
+    float: left;
+    height: 100%;
+}
+#header_botones{
+    background-color: rgb(21, 186, 27);
+    width: 30vw;
+    float: left;
+    height: 100%;
+}
+.material-symbols-outlined.md-36{
+    font-size: 3em;
+}
