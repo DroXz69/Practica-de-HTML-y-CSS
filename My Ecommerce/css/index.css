@@ -1,0 +1,20 @@
+.bg {
+    background: url(../img/fondo.jpg);
+}
+#carouselExample{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 255, 0);
+}
+#fb{
+    background-color: #3b5998;
+}
+#tw{
+    background-color: #7f30a3;
+}
+#git{
+    background-color: #333333;
+}
+#ig{    
+    background-color: #b40db4;
+}
