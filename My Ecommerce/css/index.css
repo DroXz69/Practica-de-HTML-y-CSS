@@ -1,11 +1,46 @@
 .bg {
     background: url(../img/fondo.jpg);
 }
+#brand-name{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    margin-left: 10px;
+}
 #carouselExample{
     width: 50%;
     height: 50%;
-    background-color: rgb(255, 255, 0);
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/FondoCard.jpg);
 }
+
+/* TARJETAS */
+.card{
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/FondoCard.jpg);
+    float: center;
+}
+.col{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+}
+
+.card-title{
+    color: white;
+}
+.card-text{
+    color: white;
+}
+.btn{
+    border-radius: 15px;
+    background-color: rgba(255, 94, 0, 0.322);
+}
+
+/* LOGOS FOOTER */
 #fb{
     background-color: #3b5998;
 }
