@@ -3,10 +3,11 @@
 }
 #brand-name{
     color: rgb(255, 255, 255);
-    font-size: 2em;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     float: right;
     margin-left: 10px;
+    margin-top: -3px;
 }
 #carouselExample{
     width: 50%;
@@ -52,4 +53,10 @@
 }
 #ig{    
     background-color: #b40db4;
+}
+.navbar-toggler{
+    margin-top: -20px;
+}
+.navbar{
+    height: 60px;
 }
