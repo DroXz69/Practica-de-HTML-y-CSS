@@ -38,8 +38,17 @@
 }
 .btn{
     border-radius: 15px;
-    background-color: rgba(255, 94, 0, 0.322);
+    background-color: rgba(140, 0, 255, 0.233);
+    border-color: #ff00bf;
+    color: #FFFF00;
+
 }
+.btn:hover{
+    background-color: #ffff00c4;
+    border-color: rgb(140, 0, 255);
+    color: #ff00bf;
+}
+
 
 /* LOGOS FOOTER */
 #fb{
