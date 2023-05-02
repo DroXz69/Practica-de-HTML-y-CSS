@@ -1,0 +1,60 @@
+header{
+    background-color: blue;
+    height: 10vh;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    background-color: aliceblue;
+    height: 80vh;
+}
+footer{
+    background-color: red;
+    height: 10vh;
+}
+#header_logo{
+    background-color: rgb(48, 48, 86);
+    width: 10vw;
+    float: left;
+    height: 100%;
+}
+#header_logo > img {
+    width: 30%;
+}
+#header_menu{
+    background-color: rgb(180, 20, 167);
+    width: 10vw;
+    float: left;
+    height: 100%;
+}
+#header_busqueda{
+    background-color: rgb(160, 140, 150);
+    width: 40vw;
+    float: left;
+    height: 100%;
+}
+#header_busqueda:hover{
+    background-color: blue;
+    font-size: 1.5em;
+}
+#header_botones{
+    background-color: rgb(21, 186, 27);
+    width: 30vw;
+    float: left;
+    height: 100%;
+}
+
+.material-symbols-outlined.md-36{
+ font-size: 2.1em;
+ background-color: blueviolet;
+ border-radius: 25px;
+}
+.material-symbols-outlined.md-36:hover{
+ background-color: cadetblue;
+ font-size: 2.5em;
+}
+.material-symbols-outlined.md-36:active{
+    background-color: blue;
+    font-size: 3em;
+}

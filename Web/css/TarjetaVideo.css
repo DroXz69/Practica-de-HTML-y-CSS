@@ -1,0 +1,90 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+header {
+    background-color: #364552;
+    color: white;
+    padding: 0;
+}
+header h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0 102px;
+    padding: 20px 0;
+}
+header img {
+    width: 50px;
+    height: 50px;
+    margin: 1px 10px;
+    padding: 24px 16px;
+    float: left;
+}
+main{
+    width: 1640px;
+    margin: 0 auto;
+}
+main form {
+    background-color: #efefef;
+    margin: 0.1rem 0;
+    text-align: center;
+}
+main input {
+    transition: all 0.3s ease;
+    width: 82%;
+    height: 40px;
+    margin: 1rem 15px ;
+    padding: 8px 24px ;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+main input:hover {
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+main button {
+    transition: all 0.3s ease;
+    background-color: rgb(255, 255, 255);
+    margin: 1rem 10px;
+    padding: 8px 24px ;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+main button:hover {
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+}
+footer section {
+    float: right;
+}
+footer p {
+    margin: 0;
+}
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: cornflowerblue;
+}
