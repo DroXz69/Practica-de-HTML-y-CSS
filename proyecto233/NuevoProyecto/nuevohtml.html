@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Ecommerce</title>
+    <script>
+        window.addEventListener("load", () => {
+            elboton = document.getElementById("aceptar");
+            elboton.addEventListener("click", () => {
+                username = document.getElementById("username").value;
+                clave = document.getElementById("clave").value;
+                mensaje = document.getElementById("mensaje");
+                if (username == "admin@admin.com" && clave == "12345") {
+                    mensaje.innerHTML = "Datos Correctos";
+                    mensaje.style.color = "green";
+                }
+                else {
+                    mensaje.innerHTML = "Datos Incorrectos";
+                    mensaje.style.color = "red";
+                }
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <main>
+        Escriba su mail:<input type="email" name="username" id="username">
+        <br>
+        Escriba su clave:<input type="password" name="clave" id="clave">
+        <br>
+        <input type="button" value="Acceder" id="aceptar">
+        <div id="mensaje"></div>
+    </main>
+
+</body>
+
+</html>
