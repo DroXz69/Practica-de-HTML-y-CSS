@@ -2,31 +2,39 @@ html {
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
 }
+
 body {
     margin: 0;
     background-color: #efefef;
 }
+
 .container {
-    width: 400px;
-    margin: 278px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
 section article {
     background-color: #fff;
     margin: 1rem 0;
     border-radius: 0.5rem;
     padding: 0.25rem 0;
 }
+
 section article img {
     display: block;
     margin: 15px 150px;
     width: 100px;
     height: 100px;
 }
+
 section article h1 {
     text-align: center;
     font-size: 25px;
 }
-.email, .password{
+
+.email, .password {
     transition: all 0.3s ease;
     width: 90%;
     margin: 3px 9px;
@@ -35,26 +43,32 @@ section article h1 {
     border-radius: 6px;
     background-color: rgba(0, 0, 0, 0.05);
 }
-.email:hover, .password:hover{
+
+.email:hover, .password:hover {
     box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
 }
-.email:focus, .password:focus{
+
+.email:focus, .password:focus {
     background-color: #fff;
     border: 1px solid #ff00aa;
     box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
 }
+
 .email:active, .password:active {
     background-color: #ff00d421;
 }
-.tick{
+
+.tick {
     transition: all 0.3s ease;
     margin: 3px 10px;
     padding: 0;
 }
-.tick:hover{
+
+.tick:hover {
     cursor: pointer;
     box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
 }
+
 .sms {
     display: flex;
     justify-content: center;
@@ -63,7 +77,8 @@ section article h1 {
     margin: 3px 9px;
     padding: 2px 20px;
 }
-.btn{
+
+.btn {
     transition: all 0.2s ease;
     width: 95%;
     margin: 3px 10px;
@@ -73,9 +88,11 @@ section article h1 {
     background-color: #007bff;
     cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #0069d9;
 }
+
 .ftr {
     display: flex;
     justify-content: center;
