@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-image: url(../img/Fondo.jpg);
+    background-repeat: round;
+    background-size: cover;
+}
+
+header {
+    background-color: #364552;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+header h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px 20px;
+}
+
+header img {
+    width: 90px;
+    height: 90px;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 50px;
+    float: left;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: all 0.3s ease;
+    background-color: #ffffff8a;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+section article h3 {
+    margin: 1rem;
+}
+
+section article h4 {
+    margin: 1rem;
+}
+
+section article p {
+    margin: 1rem 2rem;
+}
+
+
+section article img {
+    border: 3px solid rgba(0, 0, 0, 0.158);
+}
+
+a button {
+    transition: all 0.3s ease;
+    background-color: #FF8000;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 8px 24px;
+    color: black;
+    margin: 1rem 50px;
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+a button:hover {
+    background-color: #ff8000;
+    color: white;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #364552;
+    color: white;
+    margin: 0;
+    padding: 3rem;
+    width: 100%;
+    height: 150px;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
+
+#contacto {
+    margin: 0 0.5rem;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+#comienzo {
+    margin: 0 0.5rem;
+    padding: 0 5px;
+    box-sizing: border-box;
+}

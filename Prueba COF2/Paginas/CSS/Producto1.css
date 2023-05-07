@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #364552;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+header h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px 102px;
+}
+footer {
+    background-color: #364552;
+    color: white;
+    margin: 0;
+    padding: 3rem;
+    width: 100%;
+    height: 150px;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
+#contacto {
+    margin: 0 0.5rem;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+#comienzo {
+    margin: 0 0.5rem;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
