@@ -1,0 +1,132 @@
+[
+    {
+        "id": "Poleron-01",
+        "titulo": "Poleron Hoodie Relaxed",
+        "imagen": "./img/Polerones/01.jpg",
+        "categoria": {
+            "nombre": "Polerones",
+            "id": "Polerones"
+        },
+        "precio": 21990
+    },
+    {
+        "id": "Poleron-02",
+        "titulo": "Poleron Jordan Air",
+        "imagen": "./img/Polerones/02.jpg",
+        "categoria": {
+            "nombre": "Polerones",
+            "id": "Polerones"
+        },
+        "precio": 59990
+    },
+    {
+        "id": "Poleron-03",
+        "titulo": "Poleron Crew Neck Skate ZooYork",
+        "imagen": "./img/Polerones/03.jpg",
+        "categoria": {
+            "nombre": "Polerones",
+            "id": "Polerones"
+        },
+        "precio": 18990
+    },
+    {
+        "id": "Chaquetas-01",
+        "titulo": "Chaqueta Capitonada Thymelee",
+        "imagen": "./img/Chaquetas/01.jpg",
+        "categoria": {
+            "nombre": "Chaquetas",
+            "id": "Chaquetas"
+        },
+        "precio": 31990
+    },
+    {
+        "id": "Chaquetas-02",
+        "titulo": "Chaqueta Capitonada (Moncler Grenoble)",
+        "imagen": "./img/Chaquetas/02.jpg",
+        "categoria": {
+            "nombre": "Chaquetas",
+            "id": "Chaquetas"
+        },
+        "precio": 44990
+    },
+    {
+        "id": "Chaquetas-03",
+        "titulo": "Chaqueta Collage de Jeff Hamilton x NBA",
+        "imagen": "./img/Chaquetas/03.jpg",
+        "categoria": {
+            "nombre": "Chaquetas",
+            "id": "Chaquetas"
+        },
+        "precio": 99990
+    },
+    {
+        "id": "Poleras-01",
+        "titulo": "Polera Anacalada",
+        "imagen": "./img/Poleras/01.jpg",
+        "categoria": {
+            "nombre": "Poleras",
+            "id": "Poleras"
+        },
+        "precio": 5990
+    },
+    {
+        "id": "Poleras-02",
+        "titulo": "Polera DC Camo Filling Star",
+        "imagen": "./img/Poleras/02.jpg",
+        "categoria": {
+            "nombre": "Poleras",
+            "id": "Poleras"
+        },
+        "precio": 11990
+    },
+    {
+        "id": "Poleras-03",
+        "titulo": "Polera Hollows ZooYork",
+        "imagen": "./img/Poleras/03.jpg",
+        "categoria": {
+            "nombre": "Poleras",
+            "id": "Poleras"
+        },
+        "precio": 19990
+    },
+    {
+        "id": "Poleras-04",
+        "titulo": "Polera DC Star",
+        "imagen": "./img/Poleras/04.jpg",
+        "categoria": {
+            "nombre": "Poleras",
+            "id": "Poleras"
+        },
+        "precio": 9990
+    },
+    {
+        "id": "Pantalones-01",
+        "titulo": "Joggers Cargo",
+        "imagen": "./img/Pantalones/01.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "Pantalones"
+        },
+        "precio": 9990
+    },
+    {
+        "id": "Pantalones-02",
+        "titulo": "Pantalon Nike Sportwear",
+        "imagen": "./img/Pantalones/02.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "Pantalones"
+        },
+        "precio": 34990
+    },
+    {
+        "id": "Pantalones-03",
+        "titulo": "Pantalon Cargo Slim",
+        "imagen": "./img/Pantalones/03.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "Pantalones"
+        },
+        "precio": 24990
+    }
+]
