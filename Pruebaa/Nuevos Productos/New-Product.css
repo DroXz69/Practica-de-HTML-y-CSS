@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+input,
+textarea,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #8c8c8c;
+}
+
+.Atras {
+    position: relative;
+    bottom: 60px;
+    width: 10rem;
+    height: 2rem;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.Atras:hover {
+    background-color: #4a0e63;
+    color: rgb(255, 255, 255);
+    border: 2px solid #4a0e63;
+}
+
+header {
+    background-color: #000000;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.LOGO {
+    color: rgb(222, 201, 118);
+}
+
+footer {
+    background-color: #000000;
+    color: rgb(222, 201, 118);
+    margin: 0;
+    padding: 3rem;
+    width: 100%;
+    height: 170px;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: rgb(222, 201, 118);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
+
+#contacto {
+    margin: 0 0.5rem;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+header h1 {
+    color: #fff;
+    position: relative;
+    left: 43%;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+input {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ID,
+.Titulo,
+.Nombre-Cat,
+.ID-Cat,
+.Price {
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.ID {
+    margin-bottom: 10px;
+}
+
+.Titulo {
+    margin-bottom: 10px;
+}
+
+.Price {
+    margin-bottom: px;
+}
+
+.Imagen {
+    margin: 0;
+    padding: 0;
+}
+
+.Cat {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.Nombre-Cat {
+    margin-bottom: 10px;
+}
+
+.ID-Cat {
+    margin-bottom: 10px;
+}
+
+.Agregar-Producto-Nuevo {
+    width: 10rem;
+    height: 2rem;
+    background-color: purple;
+    color: #fff;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Agregar-Producto-Nuevo:hover {
+    background-color: #09ff00;
+    color: rgb(0, 0, 0);
+    border: 2px solid #09ff00;
+}
+.Cancelar {
+    width: 10rem;
+    height: 2rem;
+    background-color: purple;
+    color: #fff;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Cancelar:hover {
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
+    border: 2px solid #ff0000;
+}
